@@ -1,0 +1,27 @@
+{
+  "name": "demo-commit",
+  "version": "1.0.0",
+  "description": "git commit standard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commitmsg": "commitlint -E GIT_PARAMS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adntin/demo-commit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adntin/demo-commit/issues"
+  },
+  "homepage": "https://github.com/adntin/demo-commit#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.1",
+    "eslint": "^5.1.0",
+    "husky": "^0.14.3"
+  }
+}
