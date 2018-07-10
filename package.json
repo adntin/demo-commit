@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "commit",
     "commitmsg": "commitlint -E GIT_PARAMS"
   },
   "repository": {
@@ -21,6 +22,7 @@
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-conventional": "^7.0.1",
+    "@commitlint/prompt-cli": "^7.0.0",
     "eslint": "^5.1.0",
     "husky": "^0.14.3"
   }
